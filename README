@@ -1,0 +1,35 @@
+File Structure:
+  |-- ee6470_hw4
+  |-- hw4_report.pdf
+  |-- guassian_TLM_bus
+  |   |-- CMakeLists.txt
+  |   |-- filter_def.h
+  |   |-- GaussFilter.cpp
+  |   |-- GaussFilter.h
+  |   |-- Initiator.cpp
+  |   |-- Initiator.h
+  |   |-- lena_std_short.bmp
+  |   |-- main.cpp
+  |   |-- MemoryMap.h
+  |   |-- SimpleBus.h
+  |   |-- Testbench.cpp
+  |   |-- Testbench.h
+  |   |-- tlm_log.cpp
+  |   |-- tlm_log.h
+  |   |-- TlmMemory.cpp
+  |   |-- TlmMemory.h
+ 
+How to run? (use lena_std_short.bmp as input image)
+  1 change directory to gaussian_TLM_bus, type "cd gaussian_TLM_bus"
+  2 build new directory, type "mkdir build".
+  3 change directory to build, type "cd build"
+  3 type "cmake ..".
+  3 type "make run".
+  4 you will get output image "out.bmp".
+
+
+
+
+
+
+
